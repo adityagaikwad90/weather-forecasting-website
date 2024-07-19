@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather Detection</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-banner">
+            <h1>Welcome to Live Weather Detection</h1>
+            <p>by Aditya</p>
+        </div>
+        <div class="input-container">
+            <input type="text" id="locationInput" placeholder="Enter a location">
+            <button id="getWeatherButton"><i class="fas fa-search"></i></button>
+            <button id="detectLocationButton"><i class="fas fa-map-marker-alt"></i></button>
+        </div>
+        <div id="weatherInfo" class="weather-info">
+            <h2 id="locationName"></h2>
+            <p id="temperature"></p>
+            <p id="weatherDescription"></p>
+        </div>
+    </div>
+</body>
+</html>
